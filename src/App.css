@@ -3,7 +3,7 @@
   }
 
 .App{
-  background-color: #ccc;
+  background-image: linear-gradient(to right , white , green);
   height: 97vh;
   overflow: hidden;
   display: flex;
