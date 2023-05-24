@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+  }
+
+.App{
+  background-color: #ccc;
+  height: 97vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .inputDiv , p {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+}
+  input,
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input {
+    margin-bottom: 20px;
+  }
+  button {
+    border: 1px solid gray;
+    background: whitesmoke;
+    margin-right: 5px;
+  }
+  button:nth-last-child(2),
+  button:nth-last-child(1) {
+    background: tomato;
+    color: white;
+  }
+  
